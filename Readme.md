@@ -17,3 +17,7 @@ To run this project locally, follow these steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/utkarsh369gupta/ai-whiteboard.git
+
+2. **Git Page Site**:
+   ```bash
+  https://utkarsh369gupta.github.io/ai-whiteboard/
