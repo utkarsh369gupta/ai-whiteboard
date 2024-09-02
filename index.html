@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Whiteboard Project</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+        h1 {
+            color: white; /* Set h1 text color to white */
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 15px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        .intro, .features, .usage, .footer {
+            margin-bottom: 30px;
+        }
+        .intro img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AI Whiteboard Project</h1>
+    </header>
+
+    <nav>
+        <a href="#features">Features</a>
+        <a href="#usage">Usage</a>
+        <a href="#repository">Repository</a>
+    </nav>
+
+    <div class="container">
+        <section class="intro">
+            <h2>Introduction</h2>
+            <p>Welcome to the AI Whiteboard project! This project demonstrates hand-tracking and drawing capabilities using OpenCV and MediaPipe in Python. Explore the features, see examples, and learn how to use the tool below.</p>
+            <!-- Add your image here -->
+            <img src="images/showcase.png" alt="AI Whiteboard Demo" />
+        </section>
+
+        <section class="features" id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Real-time hand tracking using AI.</li>
+                <li>AI-powered drawing interface for digital whiteboarding.</li>
+                <li>Easy-to-use controls for quick interaction.</li>
+                <li>Dynamic color selection and brush size adjustments.</li>
+            </ul>
+        </section>
+
+        <section class="usage" id="usage">
+            <h2>Usage</h2>
+            <p>To run the project, ensure you have Python installed along with the necessary libraries. Follow the instructions in the README file in the GitHub repository.</p>
+        </section>
+
+        <section class="repository" id="repository">
+            <h2>GitHub Repository</h2>
+            <p><a href="https://github.com/utkarsh369gupta/ai-whiteboard" target="_blank">Visit the GitHub Repository</a> for more details and to access the source code.</p>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>© 2024 AI Whiteboard Project. All rights reserved.</p>
+        <p>Made by Utkarsh Gupta</p>
+    </footer>
+</body>
+</html>
